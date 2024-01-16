@@ -35,8 +35,8 @@ body {
 }
 
 .content > div {
-
-    height: 20rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 
     box-sizing: border-box;
 }

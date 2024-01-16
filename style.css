@@ -88,9 +88,10 @@ body {
 .infos {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     flex: 1;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .info {
@@ -110,6 +111,7 @@ body {
 
 .info > .sub-text {
     text-align: center;
+    width: 8rem;
 }
 
 .quotes {
